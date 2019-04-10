@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing Page Recreate</title>
+  <link rel="stylesheet" type="text/css" href="output.css">
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="container">
+    <div class="page-container">
+
+      <div class="half left">
+        <i class="astro-icon fas fa-user-astronaut"></i>
+        <div class="left-content">
+          <p class="left-title"> Placeholder text Placeholder text Placeholder text Place</p>
+          <img class="rocket-image" src="assets/startup.png">
+        </div>
+      </div>
+
+      <div class="half right">
+        <div class="right-content">
+
+          <h1 class="right-title">
+            <span class="sign active">
+              <a href="#signin">Sign In</a>
+            </span>
+            <span class="small-text"> or </span>
+            <span class="sign">
+              <a href="#signup">Sign Up</a>
+            </span>
+          </h1>
+
+
+
+          <div class="form-container active" id="signin">
+            <!-- login fields -->
+            <div class="input-container">
+              <label for="email">Email</label>
+              <input class="input" type="text" name="email" placeholder="Enter your email">
+            </div>
+
+            <div class="input-container">
+              <label for="password">Password</label>
+              <input class="input" type="password" name="password" placeholder="Enter your password">
+            </div>
+
+            <button class="submit">Sign In</button>
+          </div>
+          <div class="form-container" id="signup">
+            <!-- signup fields -->
+            <div class="input-container">
+              <label for="text">Full Name</label>
+              <input class="input" type="text" name="fullname" placeholder="Enter your full name">
+            </div>
+
+            <div class="input-container">
+              <label for="email">Email</label>
+              <input class="input" type="text" name="email" placeholder="Enter your email">
+            </div>
+
+            <div class="input-container">
+              <label for="password">Password</label>
+              <input class="input" type="password" name="password" placeholder="Enter your password">
+            </div>
+
+            <div class="input-container checkbox-margin">
+              <label for="terms">
+                <input id="terms" type="checkbox"> I agree to all statements in <span class="terms">terms and conditions</span>
+              </label>
+            </div>
+
+            <button class="submit">Sign Up</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
